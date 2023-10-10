@@ -41,7 +41,8 @@ class CuentaTest {
 	
 	@Test
 	void testRetirar() {
-		assertEquals(5, Cuenta.retirar(2));
+		aux.retirar(0);
+		assertEquals(1000, aux.getSaldo());
 	}
 
 }

@@ -22,9 +22,9 @@ public class Cuenta {
 		
 	}
 
-	public static Integer retirar(int i) {
-		// TODO Auto-generated method stub
-		return null;
+	public static void retirar(int i) {
+		
+		
 	}
 	
 	
