@@ -29,7 +29,7 @@ public class Movimiento {
 	}
 	
 	public void Reintegro(Double r) {
-		this.importe += r;
+		this.importe -= r;
 		assertEquals(-150, aux.getSaldo());
 	}
 	

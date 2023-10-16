@@ -29,4 +29,8 @@ public class Cuenta {
 			this.setSaldo(this.getSaldo()-i);
 	}
 	
+	public void Reintegro(Double i) {
+		movimiento.Reintegro(i);
+	}
+	
 }
