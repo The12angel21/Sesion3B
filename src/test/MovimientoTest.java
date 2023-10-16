@@ -54,7 +54,7 @@ class MovimientoTest {
 		aux2.ingresar(50);
 		Movimiento m3 = new Movimiento(-200, "D", "Ingresamos 50");
 		assertEquals(-450, aux2.getSaldo());
-		assertEquals(aux.getSaldo(),m1.Reintegro()+m2.Reintegro()+ m3.Reintegro());
+		assertEquals(-450,m1.Reintegro()+m2.Reintegro()+ m3.Reintegro());
 	}
 
 }
