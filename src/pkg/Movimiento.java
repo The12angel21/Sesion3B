@@ -15,6 +15,8 @@ public class Movimiento {
 	}
 	
 	
+	
+	
 	public Double getImporte() {
 		return importe;
 	}
@@ -28,9 +30,9 @@ public class Movimiento {
 		this.detalle = detalle;
 	}
 	
-	public void Reintegro(Double r) {
-		this.importe -= r;
-		assertEquals(-150, aux.getSaldo());
+	public Double Reintegro(Double r) {
+		return this.importe;
+
 	}
 	
 }

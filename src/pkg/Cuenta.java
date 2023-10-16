@@ -9,7 +9,7 @@ public class Cuenta {
 	public Cuenta(String numero, String titular, int saldo) {
 		super();
 		this.saldo = saldo;
-		movimiento = new movimiento();
+		movimiento = new movimiento(saldo, D, " Inicio");
 	}
 	
 	public int getSaldo() {
