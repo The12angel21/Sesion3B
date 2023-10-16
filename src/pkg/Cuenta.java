@@ -3,12 +3,13 @@ package pkg;
 public class Cuenta {
 
 	int saldo;
-	
+	public Movimiento movimiento;
 	
 
 	public Cuenta(String numero, String titular, int saldo) {
 		super();
 		this.saldo = saldo;
+		movimiento = new movimiento();
 	}
 	
 	public int getSaldo() {

@@ -16,8 +16,8 @@ class CuentaTest {
 	
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		aux = new Cuenta("12345", "Angel", 0);
-	
+		aux = new Cuenta("12345", "Angel", 50);
+		aux2 = new Cuenta("67890", "Angel2", 0);
 	
 	}
 
