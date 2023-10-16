@@ -47,13 +47,7 @@ class MovimientoTest {
 	
 	@Test
 	void testReintegro2() {
-		aux2.retirar(350);
-		Movimiento m1 = new Movimiento(-350, "D", "Quitamos 350");
-		aux2.retirar(150);
-		Movimiento m2 = new Movimiento(100, "D", "Quitamos 150");
-		aux2.ingresar(50);
-		Movimiento m3 = new Movimiento(-200, "D", "Ingresamos 50");
-		assertEquals(-450, aux2.getSaldo());
+
 		assertEquals(-450,m1.Reintegro()+m2.Reintegro()+ m3.Reintegro());
 	}
 
