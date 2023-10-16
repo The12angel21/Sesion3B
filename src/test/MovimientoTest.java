@@ -27,7 +27,7 @@ class MovimientoTest {
 	}
 
 	@Test
-	void test() {
+	void testReintegro() {
 		fail("Not yet implemented");
 	}
 
