@@ -43,7 +43,7 @@ class MovimientoTest {
 		aux.retirar(200);
 		Movimiento m3 = new Movimiento(-200, "D", "Quitamos 200");
 		assertEquals(-250, aux.getSaldo());
-		assertEquals(-250,m1.Reintegro()+m2.Reintegro()+ m3.Reintegro());
+		assertEquals(aux.getSaldo(),m1.Reintegro()+m2.Reintegro()+ m3.Reintegro());
 	}
 
 }
